@@ -134,3 +134,39 @@ main .img_text_mix div.text button{
     color: #fff;
     font-weight: bold;
 }
+
+main .cart_back {
+    height: 100px;
+    overflow: hidden;
+}
+
+main .cart_back .pic_box {
+    float: left;
+    height: 60px;
+    margin: 20px ;
+}
+
+main .cart_back .cart {
+    float: right;
+    margin: 20px;
+    position: relative;
+}
+
+main .cart_back .cart img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+main .cart_back .cart .count {
+    position:absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
