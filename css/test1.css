@@ -88,10 +88,20 @@ main .back .right ul li p:first-child{
 main .img_text_mix {
     width: 100%;
     height: 760px;
+    position: relative;
+    overflow: hidden;
 }
 
+/* main .img_text_mix img {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 50%;
+    z-index: 10;
+ } */
+
 main .img_text_mix>div {
-    overflow: hidden;
+    
     width: 25%;
     height: 50%;
     float: left;
@@ -121,6 +131,32 @@ main .img_text_mix div.text p.p2{
     color: gray;
     font-size: 14px;
 }
+
+main .img_text_mix div.text::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    display: block;
+    border: 20px solid transparent;
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    z-index: 50;
+
+}
+
+
+main .img_text_mix div.left-arrow::before {
+    left: -40px;
+    border-right-color: #07cbc9;
+
+}
+main .img_text_mix div.right-arrow::before {
+    right: -40px;
+    border-left-color: #07cbc9;
+
+}
+
 
 main .img_text_mix div.text button{
     display: block;

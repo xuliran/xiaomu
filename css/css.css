@@ -79,7 +79,7 @@ header .header-top .tool .r1 .icon{
     width: 264px;
     height: 28px;
     border: 1px solid rgba(153, 153, 153, 0.6);
-    
+    border-radius: 4px;
  }
 
  header .header-top .tool .r2 input {
@@ -174,6 +174,7 @@ header .header-top .tool .r1 .icon{
    top: 50%;
    margin-top: -37px;
    display: block;
+   border-radius: 6px;
  }
 
  .banner .center .right-btn {
@@ -185,6 +186,7 @@ header .header-top .tool .r1 .icon{
    right: 0;
    top: 50%;
    margin-top: -37px;
+   border-radius: 6px;
  }
 
 
@@ -204,7 +206,7 @@ header .header-top .tool .r1 .icon{
    position: absolute;
    width: 120px;
    height: 12px;
-   background-color: red;
+   
    bottom: 20px;
    /* 水平居中 */
    left: 50%;
@@ -217,6 +219,7 @@ header .header-top .tool .r1 .icon{
    background-color: white;
    margin-right: 10px;
    float: left;
+   border-radius: 4px;
  }
 
  /* 一个没有margin最后 */
@@ -233,6 +236,14 @@ header .header-top .tool .r1 .icon{
  .content {
    margin-top: 91px;
    overflow: hidden;
+ }
+
+ .content h3 {
+  border-left: 4px solid #00978E;
+  padding-left: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
  }
 
  .content .useful_links {
@@ -279,7 +290,6 @@ header .header-top .tool .r1 .icon{
  }
 
  .content .news-and-notices .news h3 {
-  height: 33px;
   margin-bottom: 10px;
  }
 
@@ -330,7 +340,6 @@ header .header-top .tool .r1 .icon{
  }
 
  .content .news-and-notices .notices h3 {
-  height: 33px;
   margin-bottom: 10px;
  }
 
@@ -427,6 +436,7 @@ header .header-top .tool .r1 .icon{
   margin-right: 17px;
   margin-bottom: 16px;
   text-align: center;
+  border-radius: 4px;
  }
 
  .content .dep-info .center .col li:nth-child(2n) {
