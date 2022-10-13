@@ -38,6 +38,10 @@ header .header-top h1 {
     width: 221px;
     height: 63px; 
     color: #00978e;
+    background-image: url(../images/小慕医生.png);
+    background-repeat: no-repeat;
+    /* 将段首缩进可以隐藏文字 */
+    text-indent: -999px;
 }
 
 header .header-top .tool {
@@ -175,6 +179,11 @@ header .header-top .tool .r1 .icon{
    margin-top: -37px;
    display: block;
    border-radius: 6px;
+   background-image: url(../images/jiantoul.png);
+ }
+
+ .banner .center .left-btn:hover {
+  background-image: url(../images/左箭头hover.png);
  }
 
  .banner .center .right-btn {
